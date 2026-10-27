@@ -82,7 +82,7 @@ function cmdInit(): void {
       llm: {
         provider: 'deepseek',
         baseUrl: 'https://api.deepseek.com',
-        apiKeyEnv: 'DEEPSEEK_API_KEY',
+        apiKeyEnv: 'MMTR_API_KEY',
         model: 'deepseek-chat',
       },
       embedding: {
@@ -97,7 +97,7 @@ function cmdInit(): void {
     };
     writeFileSync(configPath, JSON.stringify(example, null, 2), 'utf8');
     console.log('已生成配置文件: ' + configPath);
-    console.log('  把 llm.provider 改成 deepseek 并设置环境变量 DEEPSEEK_API_KEY 即可接入真实模型。');
+    console.log('  把 llm.provider 改成 deepseek 并设置环境变量 MMTR_API_KEY 即可接入真实模型。');
   } else {
     console.log('配置文件已存在: ' + configPath);
   }

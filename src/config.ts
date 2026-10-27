@@ -223,7 +223,7 @@ export const DEFAULT_CONFIG: MMTRConfig = {
   llm: {
     provider: 'heuristic',
     baseUrl: 'https://api.deepseek.com',
-    apiKeyEnv: 'DEEPSEEK_API_KEY',
+    apiKeyEnv: 'MMTR_API_KEY',
     apiKey: '',
     model: 'deepseek-chat',
     temperature: 0.3,
