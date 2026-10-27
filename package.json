@@ -1,0 +1,37 @@
+{
+  "name": "mmtr",
+  "version": "0.1.0",
+  "description": "MMTR - Memorable Memory To Remember: a human-memory-inspired memory layer that forgets on purpose.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "bin": {
+    "mmtr": "./src/cli.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test test/*.test.ts",
+    "cli": "node --experimental-strip-types --no-warnings src/cli.ts",
+    "server": "node --experimental-strip-types --no-warnings src/server.ts",
+    "doctor": "node --experimental-strip-types --no-warnings src/cli.ts doctor"
+  },
+  "keywords": [
+    "memory",
+    "agent-memory",
+    "cognitive-architecture",
+    "forgetting-curve",
+    "llm",
+    "sqlite",
+    "zero-dependency"
+  ]
+}
