@@ -1,5 +1,7 @@
 # MMTR — Memorable Memory To Remember
 
+[![test](https://github.com/CRTNET8866/MMTR/actions/workflows/test.yml/badge.svg)](https://github.com/CRTNET8866/MMTR/actions/workflows/test.yml)
+
 > 一个仿人脑的记忆层：**会忘，但忘得对。**
 
 MMTR 不是向量数据库，也不是 RAG 管线。它试图回答一个更窄的问题：
